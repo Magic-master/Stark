@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+
+#welcome {
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    color: white;
+    bottom: 0;
+    opacity: 0.83;
+    display: table;
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 300;
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 300;
+    font-family: ;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 100px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height:
+        1.3;
+}
+
+.parallax-container {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1517037496998-89489857d8ad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.menu {
+    list-style: none;
+    position:fixed;
+    overflow: hidden;
+    width: 100%;
+    top: 10px;
+    opacity: 0.8;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.links {
+    float: left;
+    color: aqua;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.links:hover {
+    background-color: aliceblue;
+}
+
+a {
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
